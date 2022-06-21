@@ -75,8 +75,7 @@ Array<T>::Array(T *ptr, uint size)
 
 template<typename T>
 Array<T>::~Array<T>() {
-    if (this->m_isPtrFromClass)
-        free(this->m_ptr);
+    free(this->m_ptr);
 }
 
 template<typename T>
