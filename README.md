@@ -1,6 +1,6 @@
 ## dynarray
 
-Dynamic array library for C++ but simpler than `std::vec`.
+Dynamic array library for C++ but simpler than `std::vector`.
 
 ## Library
 It supports Makefile and premake5 only.
